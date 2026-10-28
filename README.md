@@ -6,7 +6,6 @@ which rooms are open, how long they stay free, and where they are on a map.
 ![screenshot](docs/screenshot.png)
 <!-- Add a screenshot or GIF, plus a live demo link: https://<you>.github.io/study-room-finder -->
 
-**Live demo:** _add link after deploying_
 
 ## Features
 - Free/busy status for every room at any day and time, with "free until HH:MM"

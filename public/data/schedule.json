@@ -1,0 +1,621 @@
+{
+  "rooms": [
+    {
+      "id": "lib-101",
+      "building": "Library",
+      "name": "Group Room 101",
+      "capacity": 6,
+      "lat": 43.5309,
+      "lng": -80.2263
+    },
+    {
+      "id": "lib-204",
+      "building": "Library",
+      "name": "Group Room 204",
+      "capacity": 4,
+      "lat": 43.531,
+      "lng": -80.226
+    },
+    {
+      "id": "thb-110",
+      "building": "Thornbrough",
+      "name": "Room 110",
+      "capacity": 12,
+      "lat": 43.5326,
+      "lng": -80.2273
+    },
+    {
+      "id": "scc-220",
+      "building": "Science Complex",
+      "name": "Room 220",
+      "capacity": 8,
+      "lat": 43.5335,
+      "lng": -80.225
+    },
+    {
+      "id": "uc-305",
+      "building": "University Centre",
+      "name": "Room 305",
+      "capacity": 10,
+      "lat": 43.5315,
+      "lng": -80.2268
+    },
+    {
+      "id": "mac-12",
+      "building": "MacKinnon",
+      "name": "Room 12",
+      "capacity": 20,
+      "lat": 43.5342,
+      "lng": -80.2278
+    }
+  ],
+  "bookings": [
+    {
+      "roomId": "lib-101",
+      "day": 1,
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 1,
+      "start": "10:00",
+      "end": "11:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 1,
+      "start": "11:30",
+      "end": "12:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 1,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 1,
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 2,
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 2,
+      "start": "10:00",
+      "end": "11:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 2,
+      "start": "11:30",
+      "end": "12:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 3,
+      "start": "08:30",
+      "end": "10:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 3,
+      "start": "10:00",
+      "end": "11:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 3,
+      "start": "11:30",
+      "end": "12:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 3,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 4,
+      "start": "11:30",
+      "end": "12:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 4,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-101",
+      "day": 5,
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 1,
+      "start": "11:30",
+      "end": "13:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 2,
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 2,
+      "start": "10:00",
+      "end": "11:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 2,
+      "start": "11:30",
+      "end": "13:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 2,
+      "start": "13:00",
+      "end": "14:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 2,
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 3,
+      "start": "11:30",
+      "end": "13:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 4,
+      "start": "14:30",
+      "end": "16:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 5,
+      "start": "11:30",
+      "end": "13:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 5,
+      "start": "14:30",
+      "end": "16:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "lib-204",
+      "day": 5,
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 1,
+      "start": "10:00",
+      "end": "11:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 1,
+      "start": "11:30",
+      "end": "12:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 1,
+      "start": "13:00",
+      "end": "14:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 1,
+      "start": "14:30",
+      "end": "16:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 1,
+      "start": "16:00",
+      "end": "17:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 2,
+      "start": "13:00",
+      "end": "14:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 3,
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 3,
+      "start": "10:00",
+      "end": "11:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 3,
+      "start": "11:30",
+      "end": "12:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 3,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 3,
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 3,
+      "start": "16:00",
+      "end": "17:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 4,
+      "start": "10:00",
+      "end": "11:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 5,
+      "start": "08:30",
+      "end": "10:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 5,
+      "start": "10:00",
+      "end": "11:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 5,
+      "start": "11:30",
+      "end": "13:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 5,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "thb-110",
+      "day": 5,
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 1,
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 1,
+      "start": "10:00",
+      "end": "11:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 1,
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 2,
+      "start": "10:00",
+      "end": "11:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 2,
+      "start": "16:00",
+      "end": "17:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 3,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 4,
+      "start": "13:00",
+      "end": "14:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 4,
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 5,
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 5,
+      "start": "11:30",
+      "end": "13:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "scc-220",
+      "day": 5,
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 1,
+      "start": "10:00",
+      "end": "11:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 1,
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 2,
+      "start": "11:30",
+      "end": "13:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 2,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 3,
+      "start": "10:00",
+      "end": "11:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 3,
+      "start": "11:30",
+      "end": "13:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 3,
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 3,
+      "start": "16:00",
+      "end": "17:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 4,
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 4,
+      "start": "14:30",
+      "end": "16:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 5,
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "uc-305",
+      "day": 5,
+      "start": "16:00",
+      "end": "17:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 1,
+      "start": "08:30",
+      "end": "10:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 1,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 1,
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 1,
+      "start": "16:00",
+      "end": "17:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 2,
+      "start": "10:00",
+      "end": "11:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 2,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 2,
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 3,
+      "start": "10:00",
+      "end": "11:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 3,
+      "start": "13:00",
+      "end": "14:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 3,
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 4,
+      "start": "08:30",
+      "end": "10:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 4,
+      "start": "11:30",
+      "end": "13:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 5,
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Class"
+    },
+    {
+      "roomId": "mac-12",
+      "day": 5,
+      "start": "16:00",
+      "end": "17:30",
+      "title": "Class"
+    }
+  ]
+}
